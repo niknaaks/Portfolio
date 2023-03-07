@@ -90,20 +90,29 @@ body {
     background: #e7d1fe;
 }
 
+/* This is the header */
 
 .header__body {
+    text-align: center;
+}
+
+.header__title {
     font-family: 'Titan One', cursive;
-    font-size: calc(100vw / 15);
+    font-size: calc(100vw / 20);
     
 }
 
-.header__body {
+.header__title {
     color: transparent;
     background: rgb(250,208,196);
     background: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);  -webkit-background-clip: text;
     background-clip: text;
+    padding: 15px;
     /* animation: rotate 7s linear infinite; */
-   
+}
+
+.header__text {
+    padding: 20px;
 }
 
 @keyframes rotate {
@@ -121,6 +130,23 @@ body {
     }
 }
 
+
+
+/* This is the contact   */
+
+.contact__icons {
+    gap: 20px;
+}
+
+.contact__icon {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #937DC2;
+}
+
+
+
+/* This is media queries */
 
 @media screen and (max-width: 480px) {
     .nav__menu ul li a {
